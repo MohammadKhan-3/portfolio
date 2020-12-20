@@ -47,7 +47,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -58,7 +58,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -86,12 +86,12 @@ table {
 	border-spacing: 0;
 }
 
-a[href], label[for], select, 
+a[href], label[for], select,
 input[type=checkbox], input[type=radio] {
 	cursor: pointer;
 }
 
-button, input[type=button], input[type=image], 
+button, input[type=button], input[type=image],
 input[type=reset], input[type=submit] {
 	padding: 0;
 	overflow: visible;
@@ -107,10 +107,10 @@ input[type=url], input[type=password], input[type=text], input[type=email], inpu
      box-sizing: border-box;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;
 }
 
-button::-moz-focus-inner, 
-input[type=button]::-moz-focus-inner, 
-input[type=image]::-moz-focus-inner, 
-input[type=reset]::-moz-focus-inner, 
+button::-moz-focus-inner,
+input[type=button]::-moz-focus-inner,
+input[type=image]::-moz-focus-inner,
+input[type=reset]::-moz-focus-inner,
 input[type=submit]::-moz-focus-inner {
 	border: 0;
 }
@@ -122,7 +122,7 @@ body{
 	margin:0;
 	color:#a4a7ac;
 	font:18px Arial, Helvetica, sans-serif;
-	-webkit-text-size-adjust: none; 
+	-webkit-text-size-adjust: none;
 }
 img{border-style:none; vertical-align: top;}
 a{text-decoration:none; color:#6e6e6e;}
@@ -134,8 +134,15 @@ a:hover{text-decoration:underline;}
 }
 .wrapper-holder {
 	width:100%;
-    display:table-row;
-    background: #50af6f;
+  display:table-row;
+  background: #111;
+  /*Dark Blue: 015490  */
+  /*Original Green Background: #50af6f*/
+  background-image: url('../mo-images/columbus_dusk_64_opacity.png');
+  /*../mo-images goes back a directory*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  /* should fit container*/
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -163,6 +170,7 @@ a:hover{text-decoration:underline;}
 	line-height: 74px;
 	display: block;
 	text-transform: uppercase;
+  text-shadow: 8px 8px 10px #111;
 	margin: 85px 0 23px;
 }
 #nav {
@@ -180,17 +188,23 @@ a:hover{text-decoration:underline;}
 }
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
-	color: #aeecc2;
+	color: #AED8EC;
+  /* Light lbue: AED8EC*/
+  /*Color of Nav elements
+  orignal green: aeecc2*/
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
+  text-shadow: 8px 8px 10px #111;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #62bb7f;
+	border-bottom: 4px solid #629EBB;
+  /*this is for underlnining Nav elements */
+  /*62bb7f is original green  */
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
 #nav ul a:hover,#nav ul a.active{
-	color: #fff;
+	color: #fff; /*fff is white  */
 	border-bottom: 4px solid #fff;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -202,12 +216,14 @@ h2.slogan{
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
+  text-shadow: 4px 4px 10px #111;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #aeecc2;
+	color: #AED8EC;
+  /*original: aeecc2  */
 	padding: 34px 0 50px 0;
-	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
+	background: url(../images/slogan_bg_blue.gif) no-repeat 50% 0;
 }
 /*main
  */
@@ -216,7 +232,7 @@ h2.slogan{
 	margin: 0 auto;
 	padding: 93px 0 76px;
 	position:relative;
-	background: url(../images/icon_header.png) no-repeat 50% 0;
+  /*background: url(../images/icon_header.png) no-repeat 50% 0; Removes eye design  */
 }
 #main h2{
 	display: block;
@@ -253,7 +269,7 @@ h2.slogan{
 }
 .box_timeline ul li:first-child{margin: 0;}
 .box_timeline ul li .date{
-	background: url(../images/bg_timeline_c.png) no-repeat 50% 0;
+	background: url(../images/bg_timeline_c_blue_color.png) no-repeat 50% 0;
 	height: 86px;
 	width: 170px;
 	margin: 0 auto 12px;
@@ -271,7 +287,9 @@ h2.slogan{
 }
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
-	color: #50af6f;
+	color: #5090af;
+  /*Color for text on home page timeline
+  Original green: 50af6f  */
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
@@ -318,7 +336,8 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #50af6f;
+	background: #508FAF;
+  /*#50af6f is original green */
 	color: #fff;
 	text-transform:uppercase;
 	display: block;
@@ -326,15 +345,21 @@ h2.slogan{
 	font-weight: normal;
 	font-size: 18px;
 	padding: 0 0 0 20px;
-}
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+}/*Below: Engineering skills */
+.progress li span.solidworks{width: 90%;}
+.progress li span.inventor{width: 90%;}
+.progress li span.arduino{width: 80%;}
+.progress li span.matlab{width: 70%;}
+/*Below: Filmmaking skills */
+.progress li span.premiere{width: 95%;}
+.progress li span.after{width: 80%;}
+.progress li span.audition{width: 40%;}
+.progress li span.flash{width: 65%;}
+/*Below: Soft skills */
+.progress li span.initiative{width: 95%;}
+.progress li span.empathy{width: 90%;}
+.progress li span.leader{width: 85%;}
+.progress li span.creative{width: 100%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -360,6 +385,8 @@ h2.slogan{
 	height: 100%;
 	position: relative;
 }
+/* Need images of Premiere, AE, Audition
+SOlidworks, Inventor, Arduino, MATLAB */
 .plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
 .plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
 .plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
@@ -385,18 +412,18 @@ h2.slogan{
 }
 /* .sub_nav li:first-child{padding: 0;} */
 .sub_nav a {
-	color: #a4a7ac;
+	color: #a4a7ac; /*Gray color when not clicked */
 	font-size: 14px;
 	line-height: 16px;
 	text-transform: uppercase;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #3b3c3e;
+	border-bottom: 4px solid #3b3c3e; /*Dark Gray Color */
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
 .sub_nav a:hover,.sub_nav a.active{
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #5060AF; /*50af6f is original green */
+	border-bottom: 4px solid #5060AF;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -416,8 +443,8 @@ transition: all 0.5s ease-in-out;
 	font-weight: normal;
 }
 .sub_nav li:hover,.sub_nav .active {
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #7380C1;/*<--Word color 50af6f is original green */
+	border-bottom: 4px solid #5060AF;
 	text-decoration: none;
 	cursor: pointer;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -457,7 +484,7 @@ transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     width: 100%;
-    background: #6abb84;
+    background: #6AA1BB; /* 6abb84 original green*/
 	opacity: 0.9;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
@@ -520,7 +547,7 @@ transition: all 0.5s ease-in-out;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
-.box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
+.box_contact span.email{background: url(../images/icon_email2_blue.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
 .box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
 /*footer
@@ -556,21 +583,22 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
-	background: #50af6f;
+	background: #5090AF;
+  /*Original Green: 50af6f  */
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
 }
 .footer-content .social li a{
-	display: table-cell;	
+	display: table-cell;
 	position: relative;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
-.footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
-.footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
+.footer-content .social li.linkedin a{background: url(../mo-images/linkedin_white_2x.png) no-repeat 50% 50%;}
+/*.footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
+.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;} */
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -613,7 +641,7 @@ transition: all 0.5s ease-in-out;
 	height: 46px;
 	top: -23px;
 	right: -20px;
-	background-image: url(../images/ico_btn-close.png);
+	background-image: url(../images/ico_btn-close_blue.png);
 }
 .fancybox-opened .fancybox-skin{
 	padding: 20px !important;
@@ -625,16 +653,16 @@ transition: all 0.5s ease-in-out;
 /* end add	 */
 
 @media (-webkit-min-device-pixel-ratio:2) ,(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
-	#main {
+	/*#main {
 		background-image: url(../images/icon_header@x2.png);
 		background-size:114px 46px;
-	}
+	} */
 	.menu_trigger{
 		background-image: url(../images/btn_mobile_menu@x2.png);
 		background-size:31px 30px;
 	}
 	.slogan{
-		background-image: url(../images/slogan_bg@x2.gif);
+		background-image: url(../images/slogan_bg_blue_2x.gif);
 		background-size:80px 4px;
 	}
 	.box_timeline_holder{
@@ -646,18 +674,19 @@ transition: all 0.5s ease-in-out;
 		background-size:100px 16px;
 	}
 	.box_timeline ul li .date{
-		background-image: url(../images/bg_timeline_c@x2.png);
+		background-image: url(../images/bg_timeline_c_blue_color_2x.png);
 		background-size:50px 86px;
 	}
 	.footer-content .social li.email a{
 		background-image: url(../images/icon_email@x2.png);
 		background-size:51px 38px;
 	}
-	.footer-content .social li.facebook a{
-		background-image: url(../images/icon_fb@x2.png);
-		background-size:20px 38px;
+	.footer-content .social li.linkedin a{
+		background-image: url(../mo-images/linkedin_white_2x.png);
+     /*need to fix LinkedIn icon size--> FIXED look at screen.css CNTRL+F 'footer' */
+		background-size:51px 38px;
 	}
-	.footer-content .social li.google a{
+/*	.footer-content .social li.google a{
 		background-image: url(../images/icon_gl@x2.png);
 		background-size:42px 38px;
 	}
@@ -668,7 +697,7 @@ transition: all 0.5s ease-in-out;
 	.footer-content .social li.pinterest a{
 		background-image: url(../images/icon_pn@x2.png);
 		background-size:38px 38px;
-	}
+	} */
 	.plagin_list li.li_1 a{
 		background-image: url(../images/icon_ps@x2.png);
 		background-size:49px 42px;
@@ -702,7 +731,7 @@ transition: all 0.5s ease-in-out;
 		background-size:60px 24px;
 	}
 	.box_contact span.email{
-		background-image: url(../images/icon_email2@x2.png);
+		background-image: url(../images/icon_email2_blue_2x.png);
 		background-size:54px 41px;
 	}
 	.box_contact span.phone{
@@ -715,7 +744,7 @@ transition: all 0.5s ease-in-out;
 	}
 /* begin add	 */
 	.fancybox-close {
-		background-image: url(../images/ico_btn-close@x2.png);
+		background-image: url(../images/ico_btn-close_blue_2x.png);
 		background-size:46px 46px;
 	}
 /* end add	 */

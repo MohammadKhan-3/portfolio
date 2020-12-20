@@ -94,7 +94,7 @@
 	#nav {display: none;padding: 0;margin: 0 0 25px;top: 20px;}
 	#nav ul li {
 		display:block;
-		padding: 0;	
+		padding: 0;
 	}
 	#nav ul a {
 		display:block;
@@ -107,7 +107,7 @@
 	.footer-content .social{margin: 0 auto 30px;}
 	.footer-content .social li{margin: 0 0 0 4px; width: 50px; height: 50px;}
 	.footer-content .social li.email a{	background-size: 20px auto;	}
-	.footer-content .social li.facebook a{	background-size: 15px auto;	}
+	.footer-content .social li.linkedin a{	background-size: 50px auto;	}
 	.footer-content .social li.google a{	background-size: 20px auto;	}
 	.footer-content .social li.twitter a{	background-size: 20px auto;	}
 	.footer-content .social li.pinterest a{	background-size: 20px auto;	}
