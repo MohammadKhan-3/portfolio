@@ -240,6 +240,7 @@ h2.slogan{
 	text-transform: uppercase;
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
+  /*Original was 30px--> could try rem for font size relative to root element*/
 	line-height: 32px;
 	color: #fff;
 	margin: 0 0 81px;

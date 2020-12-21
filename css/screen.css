@@ -71,19 +71,45 @@
 	#container.item-list{width: 600px;}
 	.sub_nav li{padding:10px 0;}
 }
-@media only screen and (max-width : 840px) {
+@media only screen and (max-width: 840px){
+	/*Orignal:max-width=840px*/
+	/*max-width: If screen is 840px or less, than do the following*/
+	/*min-width: if screen is 840px or greater, than do the following*/
 	.box_timeline ul li{margin: 0;width: 100%;float: none;}
-	#main h2{margin: 0 0 30px;}
+	#main h2
+	{margin: 0 0 0px;
+		/*margin:0(top) 0(left&right) 30(bottom)
+		 	margin: top, right, bottom, left
+			margin: 23px 50px --> 23 top & bottom, 50 left & right*/
+		  font-size:15px ;
+/*		text-align: center;
+		display:block;*/
+		}
+		#wrapper{
+			width:20%;
+			height: 100%;
+			display:table;
+			overflow:hidden;
+		}
+		.wrapper-holder { /*Nav Bar header*/
+			width:0px
+			margin:0 5px 0 0;
+		}
+		.wrapper-holder.grey{
+			background: #28292b;
+			width:0px}
+ /*^The dark gray WrapperCopied from all.css */
 	.images_holder {
 		margin: 5px auto 20px;
 		width: 300px;
 		float: none;
-	}
-	.box_contact {
+	.box_contact
+		{
 		margin: 40px auto 0;
-		width: 460px;
-	}
+		width: 460px;/*460px was original*/
+		}
 	.box_timeline_holder,.box_timeline{background: none;}
+	}
 }
 @media only screen and (max-width : 768px) {
 	.footer-content {padding: 45px 10px 20px;}
