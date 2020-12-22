@@ -186,6 +186,14 @@ a:hover{text-decoration:underline;}
 	float: left;
 	padding: 0 0 0 60px;
 }
+/*
+<li data-filter=".engr">Engineering</li>
+<li data-filter=".film">Flimmaking</li>
+<li data-filter=".consult">Consulting</li>
+<li data-filter=".STEM">STEM Teaching</li>
+<li data-filter=".volunte">Volunteering</li>
+
+*/
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
 	color: #AED8EC;
@@ -280,7 +288,7 @@ h2.slogan{
 	font-family: 'novecentosanswide';
 	font-weight:bold;
 	color: #fff;
-	font-size: 14px;
+	font-size: 14px; /*Changes font of Date in Portfolio Section*/
 	line-height: 16px;
 	display: block;
 	text-align: center;
@@ -550,7 +558,7 @@ SOlidworks, Inventor, Arduino, MATLAB */
 }
 .box_contact span.email{background: url(../images/icon_email2_blue.png) no-repeat;}
 .box_contact span.phone{background: url(../images/icon_phone.png) no-repeat;}
-.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}
+/*.box_contact span.skype{background: url(../images/icon_skype.png) no-repeat;}*/
 /*footer
  */
 #footer {
@@ -597,8 +605,8 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.linkedin a{background: url(../mo-images/linkedin_white_2x.png) no-repeat 50% 50%;}
-/*.footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
-.footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
+.footer-content .social li.youtube a{background: url(../mo-images/youtube_gray.png) no-repeat 50% 50% ;}
+/*.footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
 .footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;} */
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
@@ -622,7 +630,7 @@ transition: all 0.5s ease-in-out;
 .popup_portfolio time{
 	font-family: 'novecentosanswide';
 	color: #abacaf;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 12px;
 	text-transform: uppercase;
 }
@@ -687,11 +695,11 @@ transition: all 0.5s ease-in-out;
      /*need to fix LinkedIn icon size--> FIXED look at screen.css CNTRL+F 'footer' */
 		background-size:51px 38px;
 	}
-/*	.footer-content .social li.google a{
-		background-image: url(../images/icon_gl@x2.png);
+	.footer-content .social li.youtube a{
+		background-image: url(../mo-images/youtube_gray_2x.png);
 		background-size:42px 38px;
 	}
-	.footer-content .social li.twitter a{
+/*	.footer-content .social li.twitter a{
 		background-image: url(../images/icon_tw@x2.png);
 		background-size:44px 34px;
 	}
@@ -734,6 +742,7 @@ transition: all 0.5s ease-in-out;
 	.box_contact span.email{
 		background-image: url(../images/icon_email2_blue_2x.png);
 		background-size:54px 41px;
+    text-decoration:none; /*Removes underline*/
 	}
 	.box_contact span.phone{
 		background-image: url(../images/icon_phone@x2.png);
