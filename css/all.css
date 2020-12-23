@@ -369,6 +369,8 @@ h2.slogan{
 .progress li span.empathy{width: 90%;}
 .progress li span.leader{width: 85%;}
 .progress li span.creative{width: 100%;}
+.progress li span.mentor{width: 90%;}
+
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -396,14 +398,14 @@ h2.slogan{
 }
 /* Need images of Premiere, AE, Audition
 SOlidworks, Inventor, Arduino, MATLAB */
-.plagin_list li.li_1 a{background: url(../images/icon_ps.png) no-repeat 50% 50% ;}
-.plagin_list li.li_2 a{background: url(../images/icon_ai.png) no-repeat 50% 50% ;}
-.plagin_list li.li_3 a{background: url(../images/icon_ld.png) no-repeat 50% 50% ;}
-.plagin_list li.li_4 a{background: url(../images/icon_fl.png) no-repeat 50% 50% ;}
-.plagin_list li.li_5 a{background: url(../images/icon_html.png) no-repeat 50% 50% ;}
-.plagin_list li.li_6 a{background: url(../images/icon_wp.png) no-repeat 50% 50% ;}
-.plagin_list li.li_7 a{background: url(../images/icon_jq.png) no-repeat 50% 50% ;}
-.plagin_list li.li_8 a{background: url(../images/icon_seo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_1 a{background: url(../mo-images/premiere_pro_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_2 a{background: url(../mo-images/after_effects_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_3 a{background: url(../mo-images/audition_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_4 a{background: url(../mo-images/animate_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_5 a{background: url(../mo-images/solidworks_circle.png) no-repeat 50% 50% ;}
+.plagin_list li.li_6 a{background: url(../mo-images/inventor_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_7 a{background: url(../mo-images/arduino_logo.png) no-repeat 50% 50% ;}
+.plagin_list li.li_8 a{background: url(../mo-images/matlab_logo.png) no-repeat 50% 50% ;}
 .wrapper-holder.grey p{padding: 0 0 25px;}
 .plagin_list.none{display: none;}
 
@@ -742,7 +744,7 @@ transition: all 0.5s ease-in-out;
 	.box_contact span.email{
 		background-image: url(../images/icon_email2_blue_2x.png);
 		background-size:54px 41px;
-    text-decoration:none; /*Removes underline*/
+    text-decoration-color:white; /*Removes underline*/
 	}
 	.box_contact span.phone{
 		background-image: url(../images/icon_phone@x2.png);
