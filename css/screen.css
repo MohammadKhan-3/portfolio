@@ -92,7 +92,7 @@
 		  overflow:hidden;
 		}
 		.wrapper-holder { /*Nav Bar header*/
-			width:100%
+			width:100%;
 			margin:0 5px 0 0;
 		}
 		.wrapper-holder.grey{
@@ -103,6 +103,7 @@
 		margin: 5px auto 20px;
 		width: 300px;
 		float: none;
+	}
 	.box_contact
 		{
 		margin: 40px auto 0; /*Original: 40px auto 0*/
@@ -110,7 +111,6 @@
 		}
 	.box_timeline_holder,.box_timeline{background: none;}
 	}
-}
 @media only screen and (max-width : 768px) {
 	.footer-content {padding: 45px 10px 20px;}
 	.menu_trigger {
