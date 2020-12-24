@@ -1,4 +1,4 @@
-# Portfolio
+# Resume
 Using https://www.themezy.com/free-website-templates/16-free-responsive-portfolio-template to create an online portfolio for my engineering and filmmaking projects
 ## Major Modifications Made to the Original Theme:
 1. Changed the green color to blue
