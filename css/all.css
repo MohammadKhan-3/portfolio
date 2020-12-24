@@ -355,12 +355,12 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }/*Below: Engineering skills */
-.progress li span.solidworks{width: 90%;}
-.progress li span.inventor{width: 90%;}
+.progress li span.solidworks{width: 85%;}
+.progress li span.inventor{width: 85%;}
 .progress li span.arduino{width: 80%;}
 .progress li span.matlab{width: 70%;}
 /*Below: Filmmaking skills */
-.progress li span.premiere{width: 95%;}
+.progress li span.premiere{width: 90%;}
 .progress li span.after{width: 80%;}
 .progress li span.audition{width: 40%;}
 .progress li span.flash{width: 65%;}
@@ -368,7 +368,7 @@ h2.slogan{
 .progress li span.initiative{width: 95%;}
 .progress li span.empathy{width: 90%;}
 .progress li span.leader{width: 85%;}
-.progress li span.creative{width: 100%;}
+.progress li span.creative{width: 95%;}
 .progress li span.mentor{width: 90%;}
 
 .plagin_list{
@@ -710,35 +710,36 @@ transition: all 0.5s ease-in-out;
 		background-size:38px 38px;
 	} */
 	.plagin_list li.li_1 a{
-		background-image: url(../images/icon_ps@x2.png);
+		background-image: url(../mo-images/premiere_pro_logo_2x.png);
 		background-size:49px 42px;
+    /*All these iamges had ps.logo.x2.png*/
 	}
 	.plagin_list li.li_2 a{
-		background-image: url(../images/icon_ai@x2.png);
-		background-size:45px 42px;
+		background-image: url(../mo-images/after_effects_logo.png);
+		background-size:40px 42px; /*background-size:45 px 42px*/
 	}
 	.plagin_list li.li_3 a{
-		background-image: url(../images/icon_ld@x2.png);
+		background-image: url(../mo-images/audition_logo.png);
 		background-size:40px 43px;
 	}
 	.plagin_list li.li_4 a{
-		background-image: url(../images/icon_fl@x2.png);
+		background-image: url(../mo-images/animate_logo.png);
 		background-size:34px 42px;
 	}
 	.plagin_list li.li_5 a{
-		background-image: url(../images/icon_html@x2.png);
+		background-image: url(../mo-images/solidworks_circle.png);
 		background-size:39px 55px;
 	}
 	.plagin_list li.li_6 a{
-		background-image: url(../images/icon_wp@x2.png);
+		background-image: url(../mo-images/inventor_logo.png);
 		background-size:55px 55px;
 	}
 	.plagin_list li.li_7 a{
-		background-image: url(../images/icon_jq@x2.png);
+		background-image: url(../mo-images/arduino_logo_x2.png);
 		background-size:87px 20px;
 	}
 	.plagin_list li.li_8 a{
-		background-image: url(../images/icon_seo@x2.png);
+		background-image: url(../mo-images/matlab_logo.png);
 		background-size:60px 24px;
 	}
 	.box_contact span.email{
