@@ -354,12 +354,21 @@ h2.slogan{
 	font-weight: normal;
 	font-size: 18px;
 	padding: 0 0 0 20px;
-}/*Below: Engineering skills */
+}/*Below: Engineering Hands-On skills */
+.progress li span.soldering{width: 85%;}
+.progress li span.machine{width: 40%;}
+.progress li span.research{width: 95%;}
+.progress li span.wire{width: 80%;}
+.progress li span.sketch{width: 65%;}
+/*Below: Engineering Prototyping & Modeling skills */
 .progress li span.solidworks{width: 85%;}
 .progress li span.inventor{width: 85%;}
 .progress li span.arduino{width: 80%;}
 .progress li span.matlab{width: 70%;}
+.progress li span.fritz{width: 50%;}
 /*Below: Filmmaking skills */
+.progress li span.screen{width: 85%;}
+.progress li span.direct{width: 40%;}
 .progress li span.premiere{width: 90%;}
 .progress li span.after{width: 80%;}
 .progress li span.audition{width: 40%;}
@@ -370,6 +379,7 @@ h2.slogan{
 .progress li span.leader{width: 85%;}
 .progress li span.creative{width: 95%;}
 .progress li span.mentor{width: 90%;}
+.progress li span.adapt{width: 95%;}
 
 .plagin_list{
 	width: 100%;
@@ -699,7 +709,7 @@ transition: all 0.5s ease-in-out;
 	}
 	.footer-content .social li.youtube a{
 		background-image: url(../mo-images/youtube_gray_2x.png);
-		background-size:42px 38px;
+		background-size:44px 40px; /*Original: 42x38 px*/
 	}
 /*	.footer-content .social li.twitter a{
 		background-image: url(../images/icon_tw@x2.png);
@@ -710,37 +720,37 @@ transition: all 0.5s ease-in-out;
 		background-size:38px 38px;
 	} */
 	.plagin_list li.li_1 a{
-		background-image: url(../mo-images/premiere_pro_logo_2x.png);
-		background-size:49px 42px;
+		background-image: url(../mo-images/premiere_pro_logo.png);
+		background-size:119px 119px; /*Making it square to fit logo I have*/
     /*All these images had ps.logo.x2.png*/
 	}
 	.plagin_list li.li_2 a{
 		background-image: url(../mo-images/after_effects_logo.png);
-		background-size:40px 42px; /*background-size:45 px 42px*/
+		background-size:88px 88px; /*background-size:45 px 42px*/
 	}
 	.plagin_list li.li_3 a{
 		background-image: url(../mo-images/audition_logo.png);
-		background-size:40px 43px;
+		background-size:88px 88px;/*Making it square to fit logo I have*/
 	}
 	.plagin_list li.li_4 a{
 		background-image: url(../mo-images/animate_logo.png);
-		background-size:34px 42px;
+		background-size:88px 88px;/*Making it square to fit logo I have*/
 	}
 	.plagin_list li.li_5 a{
 		background-image: url(../mo-images/solidworks_circle.png);
-		background-size:39px 55px;
+		background-size:98px 98px;/*Making it square to fit logo I have*/
 	}
 	.plagin_list li.li_6 a{
 		background-image: url(../mo-images/inventor_logo.png);
-		background-size:55px 55px;
+		background-size:92px 92px;/*Making it square to fit logo I have*/
 	}
 	.plagin_list li.li_7 a{
 		background-image: url(../mo-images/arduino_logo_x2.png);
-		background-size:87px 20px;
+		background-size:91px 91px;/*Making it square to fit logo I have*/
 	}
 	.plagin_list li.li_8 a{
 		background-image: url(../mo-images/matlab_logo.png);
-		background-size:60px 24px;
+		background-size:90px 90px;/*Making it square to fit logo I have*/
 	}
 	.box_contact span.email{
 		background-image: url(../images/icon_email2_blue_2x.png);
