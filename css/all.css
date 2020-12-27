@@ -549,6 +549,7 @@ SOlidworks, Inventor, Arduino, MATLAB */
 	margin:5px 130px 0 0;
 	width: 370px;
 }
+
 .images_holder img{
 	width: 100%;
 	height: auto;
@@ -599,7 +600,7 @@ SOlidworks, Inventor, Arduino, MATLAB */
 	background: #c6cfc9;
 	width: 123px;
 	height: 123px;
-	position:relative;
+	position:relative; /*original:relative*/
 	display: table;
 }
 .footer-content .social li:first-child{margin: 0;}
@@ -618,8 +619,8 @@ transition: all 0.5s ease-in-out;
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.linkedin a{background: url(../mo-images/linkedin_white_2x.png) no-repeat 50% 50%;}
 .footer-content .social li.youtube a{background: url(../mo-images/youtube_gray.png) no-repeat 50% 50% ;}
-/*.footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
-.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;} */
+.footer-content .social li.github a{background: url(../mo-images/Github_resize.png) no-repeat 50% 50% ;}
+/*.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;} */
 .footer-content p{
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
@@ -711,11 +712,11 @@ transition: all 0.5s ease-in-out;
 		background-image: url(../mo-images/youtube_gray_2x.png);
 		background-size:44px 40px; /*Original: 42x38 px*/
 	}
-/*	.footer-content .social li.twitter a{
-		background-image: url(../images/icon_tw@x2.png);
+	.footer-content .social li.twitter a{
+		background-image: url(../mo-images/Github_resize.png);
 		background-size:44px 34px;
 	}
-	.footer-content .social li.pinterest a{
+/*	.footer-content .social li.pinterest a{
 		background-image: url(../images/icon_pn@x2.png);
 		background-size:38px 38px;
 	} */

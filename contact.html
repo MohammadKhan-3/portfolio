@@ -2,6 +2,7 @@
 <!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
 <!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -20,7 +21,7 @@
 	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/all.css" />
 	<link rel="stylesheet" href="css/screen.css" />
-	<link rel="stylesheet" href="css/contact-form.css"/>
+	<link rel="stylesheet" href="css/contact-form - Copy.css"/>
 	<!--contactform is SPECIFICALLY for contact.html -->
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -45,48 +46,137 @@
 		<div class="wrapper-holder grey">
 			<section id="main">
 				<div class="images_holder"><img src="mo-images/profile_circle.png" alt="">
-					<p><br><br><br>Being in the later half of my collegiate career, I’ve realized that, as an engineer, a filmmaker, a writer, you are defined by the projects you decline to join.
+					<p><br><br>Being in the later half of my collegiate career, I’ve realized that, as an engineer, a filmmaker, a writer, you are defined by the projects you decline to join.
 					<br><br>
 					Through retrospection of the projects I didn't choose, I learned what type of career I want to create.<br><br></p>
 					You can view my Resume here: <a href="https://drive.google.com/file/d/1HyCzoFD9AV8YuvTPvnOd0Ws-Uz0iIsQ4/view?usp=sharing">Mohammad.Khan.Resume.PDF</a></div>
 				<div class="box_contact">
 					<span class="email">
 						<a href="mailto:mohammadukhan135@gmail.com">mohammadukhan135@gmail.com</a> </span>
-						<!-- modify this form HTML and place wherever you want your form -->
-						<link href="contact-form.css" rel="stylesheet">
-						<div class="fcf-body">
-						    <div id="fcf-form">
-						    <h3 class="fcf-h3">Contact us</h3>
-						    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-						        <div class="fcf-form-group">
-						            <label for="Name" class="fcf-label">Your name</label>
-						            <div class="fcf-input-group">
-						                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-						            </div>
-						        </div>
-						        <div class="fcf-form-group">
-						            <label for="Email" class="fcf-label">Your email address</label>
-						            <div class="fcf-input-group">
-						                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-						            </div>
-						        </div>
-						        <div class="fcf-form-group">
-						            <label for="Message" class="fcf-label">Your message</label>
-						            <div class="fcf-input-group">
-						                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-						            </div>
-						        </div>
-						        <div class="fcf-form-group">
-						            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-						        </div>
-						        <div class="fcf-credit" id="fcf-credit">
-						        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
-						        </div>
-						    </form>
-						    </div>
-						</div>
-			<!--<span class="email">mohammadukhan135@gmail.com</span>
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddgKv4TRdlN2uYSU894B8ljxGsO4AgL69TaXJgWMqSjeVCSQ/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+						<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyybbnzo" method="post">
+						  <fieldset id="fs-frm-inputs">
+						    <label for="full-name">Full Name</label>
+						    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+						    <label for="email-address">Email Address</label>
+						    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+						    <label for="message">Message</label>
+						    <textarea rows="5" name="message" id="message" placeholder="Enter your message here" required=""></textarea>
+						    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+						  </fieldset>
+						  <input type="submit" value="Submit">
+						</form>
+						<style>
+							#fs-frm input,
+							#fs-frm select,
+							#fs-frm textarea,
+							#fs-frm fieldset,
+							#fs-frm optgroup,
+							#fs-frm label,
+							#fs-frm #card-element:disabled {
+								font-family: "novecento";
+								font-size: 100%;
+								color: inherit;
+								border: none;
+								border-radius: 0;
+								display: block;
+								width: 100%;
+								padding: 0;
+								margin: 0;
+								-webkit-appearance: none;
+								-moz-appearance: none;
+							}
+							#fs-frm label,
+							#fs-frm legend,
+							#fs-frm ::placeholder {
+								font-size: 20px; /*.825rem*/
+								margin-bottom: .5rem;
+								padding-top: .2rem;
+								display: flex;
+								align-items: baseline;
+							}
+							/* border, padding, margin, width */
+							#fs-frm input,
+							#fs-frm select,
+							#fs-frm textarea,
+							#fs-frm #card-element {
+								border: 1px solid rgba(0,0,0,0.2) ; /*#97928a */
+								background-color:rgba(255,255,255,0.9) ; /*#97928a */
+								padding: .75em 1rem;
+								margin-bottom: 1.5rem;
+							}
+							#fs-frm input:focus,
+							#fs-frm select:focus,
+							#fs-frm textarea:focus {
+								background-color: white; /*Colorchange when click*/
+								outline-style: solid;
+								outline-width: thin;
+								outline-color: gray;
+								outline-offset: -1px;
+							}
+							#fs-frm [type="text"],
+							#fs-frm [type="email"] {
+								width: 100%;
+							}
+							#fs-frm [type="button"],
+							#fs-frm [type="submit"],
+							#fs-frm [type="reset"] {
+								width: auto;
+								cursor: pointer;
+								-webkit-appearance: button;
+								-moz-appearance: button;
+								appearance: button;
+								color: #2B363B ; /*Gray: 97928a Original: AED8EC*/
+							}
+							#fs-frm [type="button"]:focus,
+							#fs-frm [type="submit"]:focus,
+							#fs-frm [type="reset"]:focus {
+								outline: none;
+							}
+							#fs-frm [type="submit"],
+							#fs-frm [type="reset"] {
+								margin-bottom: 0;
+							}
+							#fs-frm select {
+								text-transform: none;
+							}
+							#fs-frm [type="checkbox"] {
+								-webkit-appearance: checkbox;
+								-moz-appearance: checkbox;
+								appearance: checkbox;
+								display: inline-block;
+								width: auto;
+								margin: 0 .5em 0 0 !important;
+							}
+							#fs-frm [type="radio"] {
+								-webkit-appearance: radio;
+								-moz-appearance: radio;
+								appearance: radio;
+							}
+							/* address, locale */
+							#fs-frm fieldset.locale input[name="city"],
+							#fs-frm fieldset.locale select[name="state"],
+							#fs-frm fieldset.locale input[name="postal-code"] {
+								display: inline;
+							}
+							#fs-frm fieldset.locale input[name="city"] {
+								width: 52%;
+							}
+							#fs-frm fieldset.locale select[name="state"],
+							#fs-frm fieldset.locale input[name="postal-code"] {
+								width: 20%;
+							}
+							#fs-frm fieldset.locale input[name="city"],
+							#fs-frm fieldset.locale select[name="state"] {
+								margin-right: 3%;
+							}
+						</style>
+		    	</div>
+					<!-- This is the Red Box that moves the footer
+						<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+						<script>
+							window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+							formbutton("create", {action: "https://formspree.io/f/xyybbnzo"})
+						</script> -->
 				</div>
 				<div class="clear"></div>
 			</section>
@@ -97,8 +187,8 @@
 					<li class="email"><a href="contact.html">Email</a></li>
 					<li class="linkedin"><a href="https://www.linkedin.com/in/mohammadkhan1859/">LinkedIn</a></li>
 					<li class="youtube"><a href="https://www.youtube.com/channel/UCVT-1Kf7eObgD63LFlJG_2Q">YouTube</a></li>
-				<!--	<li class="twitter"><a href="#">Twitter</a></li>
-					<li class="pinterest"><a href="#">Pinterest</a></li>
+				  <li class="github"><a href="https://github.com/MohammadKhan-3/resume">Github</a></li>
+			<!--<li class="pinterest"><a href="#">Pinterest</a></li>
 				-->
 				</ul>
 				<p class="copy">Copyright 2014 Template by John Markowitz. All rights reserved.</p>
