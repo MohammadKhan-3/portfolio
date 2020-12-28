@@ -13,3 +13,4 @@ Using https://www.themezy.com/free-website-templates/16-free-responsive-portfoli
 10. Added Google forms in Contact page (embedded directly in code)
 11. Added a 404 error page with links for returning to original site.
 12. Added 4th skill section in skills page
+13. Added a like button on the stories page using: https://applause-button.com/ 
