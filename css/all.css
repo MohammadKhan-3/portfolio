@@ -519,6 +519,7 @@ SOlidworks, Inventor, Arduino, MATLAB */
 	z-index: 400;
 	padding: 0 30px;
 }
+
 .item a{
 	text-decoration: none;
 }
@@ -583,17 +584,17 @@ SOlidworks, Inventor, Arduino, MATLAB */
 .footer-content {
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 45px 0 20px;
+	padding: 45px 0px 20px;
 	color: #a5a5a5;
 }
 .footer-content .social{
 	overflow:hidden;
-	margin: 0 auto 45px;
+	margin: 0 auto 45px; /*0 auto 45px*/
 	width: 670px;
 }
 .footer-content .social li{
 	float:left;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 10px; /*Original: 0 0 0 10px*/
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
 	text-indent: -9999px;
@@ -604,13 +605,14 @@ SOlidworks, Inventor, Arduino, MATLAB */
 	display: table;
 }
 .footer-content .social li:first-child{margin: 0;}
-.footer-content .social li:hover{
-	background: #5090AF;
+.footer-content .social li:hover
+{
+  background: #5090AF;
   /*Original Green: 50af6f  */
-	-webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .footer-content .social li a{
 	display: table-cell;
@@ -621,7 +623,7 @@ transition: all 0.5s ease-in-out;
 .footer-content .social li.youtube a{background: url(../mo-images/youtube_gray.png) no-repeat 50% 50% ;}
 .footer-content .social li.github a{background: url(../mo-images/Github_resize.png) no-repeat 50% 50% ;}
 /*.footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;} */
-.footer-content p{
+.footer-content p{ /*Copyright at the bottom*/
 	font:18px/20px Arial, Helvetica, sans-serif;
 	display: block;
 	text-align: center;
@@ -647,6 +649,10 @@ transition: all 0.5s ease-in-out;
 	line-height: 12px;
 	text-transform: uppercase;
 }
+.popup_portfolio applause-button{
+  vertical-align: middle;
+}
+
 .popup_portfolio p{
 	padding: 17px 0 8px;
 	color: #808286;
@@ -706,20 +712,23 @@ transition: all 0.5s ease-in-out;
 	.footer-content .social li.linkedin a{
 		background-image: url(../mo-images/linkedin_white_2x.png);
      /*need to fix LinkedIn icon size--> FIXED look at screen.css CNTRL+F 'footer' */
-		background-size:51px 38px;
+		background-size:118px 150px; /*Original:51x38px*/
+    /*^Fixes size for iPad Pro*/
 	}
 	.footer-content .social li.youtube a{
 		background-image: url(../mo-images/youtube_gray_2x.png);
-		background-size:44px 40px; /*Original: 42x38 px*/
-	}
-	.footer-content .social li.twitter a{
-		background-image: url(../mo-images/Github_resize.png);
-		background-size:44px 34px;
-	}
+		background-size:80px 72px; /*Original: 42x38 px*/
+	}    /*^Fixes size for iPad Pro*/
+	.footer-content .social li.github a{
+		background-image: url(../mo-images/Github_resize_2x.png);
+		background-size:80px 80px; /*44x34px*/
+	}    /*^Fixes size for iPad Pro*/
 /*	.footer-content .social li.pinterest a{
 		background-image: url(../images/icon_pn@x2.png);
 		background-size:38px 38px;
 	} */
+
+  /*Below-->Skills page: icons*/
 	.plagin_list li.li_1 a{
 		background-image: url(../mo-images/premiere_pro_logo.png);
 		background-size:119px 119px; /*Making it square to fit logo I have*/
